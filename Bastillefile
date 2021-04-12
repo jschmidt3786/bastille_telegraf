@@ -1,0 +1,6 @@
+# Bastille Jail Template for telegraf
+
+CP usr /
+PKG telegraf
+SYSRC telegraf_enable=YES
+SERVICE telegraf start
